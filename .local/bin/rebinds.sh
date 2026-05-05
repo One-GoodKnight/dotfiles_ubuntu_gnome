@@ -2,11 +2,11 @@
 
 gsettings set org.gnome.desktop.input-sources xkb-options "['caps:hyper']"
 
+gsettings set org.gnome.shell.keybindings toggle-overview "['<Super>s']"
 gsettings set org.gnome.desktop.wm.keybindings minimize "[]"
 gsettings set org.gnome.settings-daemon.plugins.media-keys screensaver "[]"
 gsettings set org.gnome.shell.keybindings toggle-application-view "[]"
 gsettings set org.gnome.shell.keybindings toggle-message-tray "[]"
-gsettings set org.gnome.shell.keybindings toggle-overview "[]"
 gsettings set org.gnome.desktop.wm.keybindings show-desktop "[]"
 gsettings set org.gnome.shell.keybindings focus-active-notification "[]"
 gsettings set org.gnome.shell.extensions.dash-to-dock shortcut "[]"
@@ -25,6 +25,11 @@ gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-1 "['<Hyper>1
 gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-2 "['<Hyper>2']"
 gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-3 "['<Hyper>3']"
 gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-4 "['<Hyper>4']"
+
+gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-1 "['<Shift><Hyper>1']"
+gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-2 "['<Shift><Hyper>2']"
+gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-3 "['<Shift><Hyper>3']"
+gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-4 "['<Shift><Hyper>4']"
 
 
 pkill -x xcape 2>/dev/null

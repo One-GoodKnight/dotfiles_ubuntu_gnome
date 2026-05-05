@@ -4,4 +4,4 @@
 MONITOR=$(xrandr | grep " connected" | cut -d' ' -f1)
 
 # Apply the resolution
-xrandr --output "$MONITOR" --mode 3200x1800
+xrandr --output "$MONITOR" --mode 2560x1440
