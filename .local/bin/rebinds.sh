@@ -26,10 +26,10 @@ gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-2 "['<Hyper>2
 gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-3 "['<Hyper>3']"
 gsettings set org.gnome.desktop.wm.keybindings switch-to-workspace-4 "['<Hyper>4']"
 
-gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-1 "['<Shift><Hyper>1']"
-gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-2 "['<Shift><Hyper>2']"
-gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-3 "['<Shift><Hyper>3']"
-gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-4 "['<Shift><Hyper>4']"
+gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-1 "['<Alt><Hyper>1']"
+gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-2 "['<Alt><Hyper>2']"
+gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-3 "['<Alt><Hyper>3']"
+gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-4 "['<Alt><Hyper>4']"
 
 
 pkill -x xcape 2>/dev/null
