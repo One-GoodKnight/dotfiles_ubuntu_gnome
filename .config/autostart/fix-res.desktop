@@ -1,0 +1,5 @@
+[Desktop Entry]
+Type=Application
+Name=Fix Resolution
+Exec=/home/aginiaux/.local/bin/set-resolution.sh
+X-GNOME-Autostart-enabled=true

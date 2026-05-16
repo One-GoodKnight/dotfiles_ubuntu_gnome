@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Kitty
+Exec=/home/aginiaux/.local/kitty.app/bin/kitty
+Hidden=false
+X-GNOME-Autostart-enabled=true

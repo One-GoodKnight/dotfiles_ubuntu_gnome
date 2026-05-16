@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Remove Overview
+Exec=/home/aginiaux/.local/bin/remove_overview_startup.sh
+Hidden=false
+X-GNOME-Autostart-enabled=true

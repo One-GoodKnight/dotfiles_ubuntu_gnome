@@ -1,0 +1,5 @@
+[Desktop Entry]
+Type=Application
+Name=Remove dock panel
+Exec=/home/aginiaux/.local/bin/remove_dock_panel.sh
+X-GNOME-Autostart-enabled=true
